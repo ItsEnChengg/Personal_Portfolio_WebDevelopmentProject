@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700" fill="none">
+  <rect width="1200" height="700" fill="#050D17"/>
+  <rect x="40" y="40" width="1120" height="620" rx="20" fill="#0A1A2A" stroke="#234A66" stroke-width="2"/>
+  <text x="82" y="96" fill="#B5D9F6" font-family="Arial, sans-serif" font-size="30">AccessGuard Monitoring</text>
+  <rect x="80" y="125" width="670" height="490" rx="14" fill="#10263A"/>
+  <rect x="780" y="125" width="340" height="235" rx="14" fill="#112A41"/>
+  <rect x="780" y="380" width="340" height="235" rx="14" fill="#112A41"/>
+  <path d="M415 210L560 270V380C560 457 503 518 415 544C327 518 270 457 270 380V270L415 210Z" fill="#153955" stroke="#22D3EE" stroke-width="6"/>
+  <path d="M365 371L400 407L468 332" stroke="#22D3EE" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="815" y="165" width="270" height="30" rx="8" fill="#214D6C"/>
+  <rect x="815" y="213" width="220" height="24" rx="8" fill="#183A54"/>
+  <rect x="815" y="249" width="252" height="24" rx="8" fill="#1C425E"/>
+  <rect x="815" y="420" width="270" height="30" rx="8" fill="#214D6C"/>
+  <rect x="815" y="468" width="235" height="24" rx="8" fill="#183A54"/>
+  <rect x="815" y="504" width="205" height="24" rx="8" fill="#1C425E"/>
+</svg>
