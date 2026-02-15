@@ -22,10 +22,11 @@
       <div class="collapse navbar-collapse" id="portfolioNav">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About Me</a></li>
           <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
           <li class="nav-item"><a class="nav-link" href="skills.html">Skills</a></li>
           <li class="nav-item"><a class="nav-link" href="resume.html">Resume</a></li>
-          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact Me</a></li>
         </ul>
       </div>
     </div>
@@ -35,7 +36,7 @@
     <div class="container" data-aos="fade-up">
       <p class="section-label">PROJECTS</p>
       <h1>Project Showcase</h1>
-      <p class="mb-0">Each project summary explains the problem, technical approach, implementation, and measurable impact.</p>
+      <p class="mb-0">Here are my showcased projects that I've worked on, in greater detail.</p>
     </div>
   </header>
 
@@ -44,46 +45,87 @@
       <section id="project-1" class="project-detail-card mb-5" data-aos="fade-up">
         <div class="row g-4 align-items-center">
           <div class="col-lg-5">
-            <img src="assets/project-analytics.svg" class="img-fluid rounded-3" alt="Smart Ops Dashboard screenshot">
-          </div>
-          <div class="col-lg-7">
-            <h2>Smart Ops Dashboard</h2>
-            <p><strong>Objective:</strong> Centralize IT service metrics for faster incident response and better team visibility.</p>
-            <p><strong>Implementation:</strong> I built a responsive dashboard with role-based panels for ticket status, SLA tracking, and infrastructure health indicators. The interface supports quick filtering and trend analysis.</p>
-            <p><strong>Tech Stack:</strong> HTML, CSS, Bootstrap, JavaScript, Chart.js, REST API integration</p>
-            <p><strong>Results:</strong> Reduced manual reporting effort and improved issue triage speed by giving teams a single source of operational data.</p>
-            <div class="d-flex flex-wrap gap-2">
-              <span class="skill-chip">Dashboard UI</span>
-              <span class="skill-chip">Data Visualization</span>
-              <span class="skill-chip">API Integration</span>
+            <img src="assets/careswapicon.png" class="img-fluid rounded-3" alt="Careswap project screenshot">
+            <div class="mt-5" style="margin-top: 8rem;">
+              <p class="mb-2"><strong>Tech Stack:</strong></p>
+              <div class="d-flex flex-wrap gap-2">
+                <span class="skill-chip">Flask</span>
+                <span class="skill-chip">Jinja</span>
+                <span class="skill-chip">HTML</span>
+                <span class="skill-chip">CSS</span>
+                <span class="skill-chip">Javascript</span>
+                <span class="skill-chip">Tailwind</span>
+                <span class="skill-chip">Firebase</span>
+                <span class="skill-chip">Gemini API</span>
+              </div>
             </div>
           </div>
+          <div class="col-lg-7">
+            <h2>CareSwap CareForum, CareMotivate &amp; Admin Page</h2>
+            <p><strong>Project Goal & Information:</strong> The goal was to build a positive, family-friendly community platform web application for DellInnovateFest Competition 2026 to reduce the generational gap between youths and seniors, by creating a digital community space with many features with accessible interfaces so users can use it regardless of their digital proficiency levels.</p>
+            <p><strong>My Role and Solution:</strong> My scope covered creating a moderated digital space where youths and seniors could communicate safely. I referenced community platforms like Reddit and Instagram to shape usable forum and interaction flows.</p>
+            <p><strong>My Work Process:</strong> I developed CareForum and CareMotivate features such as posting, commenting, categorisation, motivational elements, and admin moderation workflows. I contributed to key pages and interactions using Flask, Jinja, HTML/CSS, Tailwind, JavaScript, Gemini API, and Firebase while keeping navigation clear and content handling scalable.</p>
+            <p><strong>Results Achieved:</strong> The final solution delivered clear posting and moderation workflows, improved participation across users, and supported stronger youth-senior bonds through a friendly community space.</p>
+          </div>
         </div>
-        <div class="ratio ratio-16x9 mt-4">
-          <iframe src="https://www.youtube.com/embed/Ke90Tje7VS0" title="Project demo video for Smart Ops Dashboard" allowfullscreen></iframe>
+        <h3 class="mt-4">Snippets of my work</h3>
+        <div id="careswapCarousel" class="carousel slide project-snippet-carousel mt-3" data-bs-interval="false">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#careswapCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="CareSwap Snippet 1"></button>
+            <button type="button" data-bs-target="#careswapCarousel" data-bs-slide-to="1" aria-label="CareSwap Snippet 2"></button>
+            <button type="button" data-bs-target="#careswapCarousel" data-bs-slide-to="2" aria-label="CareSwap Snippet 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="assets/careswap1.png" class="d-block w-100 project-snippet-image" alt="CareSwap snippet 1">
+            </div>
+            <div class="carousel-item">
+              <img src="assets/careswap2.png" class="d-block w-100 project-snippet-image" alt="CareSwap snippet 2">
+            </div>
+            <div class="carousel-item">
+              <img src="assets/careswap3.png" class="d-block w-100 project-snippet-image" alt="CareSwap snippet 3">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#careswapCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#careswapCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
       </section>
 
       <section id="project-2" class="project-detail-card" data-aos="fade-up">
         <div class="row g-4 align-items-center">
           <div class="col-lg-5">
-            <img src="assets/project-security.svg" class="img-fluid rounded-3" alt="AccessGuard Monitoring project screenshot">
-          </div>
-          <div class="col-lg-7">
-            <h2>AccessGuard Monitoring</h2>
-            <p><strong>Objective:</strong> Create a web-based monitoring tool that helps teams track suspicious account activity and enforce audit trails.</p>
-            <p><strong>Implementation:</strong> I designed a secure interface for log search, user activity review, and access policy checks. Alert flags help administrators identify unusual login patterns quickly.</p>
-            <p><strong>Tech Stack:</strong> HTML, CSS, JavaScript, Bootstrap, authentication middleware, logging module</p>
-            <p><strong>Results:</strong> Improved security visibility and reduced time required to investigate account access incidents.</p>
-            <div class="d-flex flex-wrap gap-2">
-              <span class="skill-chip">Security Monitoring</span>
-              <span class="skill-chip">Audit Reporting</span>
-              <span class="skill-chip">Frontend Architecture</span>
+            <img src="assets/NYP%20E%20Sports%20Icon.png" class="img-fluid rounded-3 nyp-image-match" alt="NYP eSports project screenshot">
+            <div class="mt-5" style="margin-top: 8rem;">
+              <p class="mb-2"><strong>Tech Stack:</strong></p>
+              <div class="d-flex flex-wrap gap-2">
+                <span class="skill-chip">HTML/CSS</span>
+                <span class="skill-chip">Javascript</span>
+                <span class="skill-chip">Bootstrap</span>
+                <span class="skill-chip">Animate On Scroll</span>
+              </div>
             </div>
           </div>
+          <div class="col-lg-7">
+            <h2>Nanyang Polytechnic E-Sports CCA Page</h2>
+            <p><strong>Project Goal &amp; Information:</strong> The goal for the project was to build a clear and engaging website for NYP E-Sports CCA that presents its mission, history, games and achievements for members and visitors, in a bid to encourage more members to join the CCA. I worked with my Polytechnic classmate for this project.</p>
+            <p><strong>My Role and Solution:</strong> My role was to plan and develop key content pages that improved the CCA's online presence, and to provide a platform for prospective members to learn more about the CCA. I focused on designing readable, user-friendly layouts and clear content flows so users could easily understand the information.</p>
+            <p><strong>My Work Process:</strong> I created the About page, game-related pages to document awards, and a credits page to attribute media used. I implemented the frontend using HTML, CSS, Bootstrap, and JavaScript while maintaining visual consistency across pages.</p>
+            <p><strong>Results Achieved:</strong> The final website was a clean and informative platform that improved content accessibility and helped users understand the CCA's identity and accomplishments, while incentivizing prospective members to join the CCA.</p>
+          </div>
         </div>
-        <div class="ratio ratio-16x9 mt-4">
-          <iframe src="https://www.youtube.com/embed/3PHXvlpOkf4" title="Project demo video for AccessGuard Monitoring" allowfullscreen></iframe>
+        <h3 class="mt-4">Snippets of my work</h3>
+        <div id="nypEsportsCarousel" class="carousel slide project-snippet-carousel mt-3" data-bs-interval="false">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="assets/nypesports1.png" class="d-block w-100 project-snippet-image" alt="NYP E-Sports snippet 1">
+            </div>
+          </div>
         </div>
       </section>
     </div>
